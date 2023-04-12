@@ -1,0 +1,19 @@
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #f3f3f3;
+}
+.serviceWrapper {
+  display: flex;
+  width: 40%;
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.serviceItem {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}

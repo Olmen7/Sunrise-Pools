@@ -1,0 +1,51 @@
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  margin: 10vh;
+}
+.leftSide {
+  width: 50%;
+  color: #f3f3f3;
+}
+.aboutDescription {
+  width: 60%;
+  margin: 15px auto;
+}
+.aboutCta {
+  width: fit-content;
+  border-top: 3px solid #f3f3f3;
+  border-bottom: 3px solid #f3f3f3;
+  padding: 5px 10px;
+  margin: 15px auto;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #f3f3f3;
+  transition: all 0.4s;
+}
+.aboutCta:hover {
+  letter-spacing: 5px;
+  color: #1e5d82;
+  border-top: 3px solid #1e5d82;
+  border-bottom: 3px solid #1e5d82;
+}
+.rightSide {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.rightSide h4 {
+  flex-basis: 100%;
+  color: #f3f3f3;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 10px;
+  letter-spacing: 3px;
+}
+.beforeAfter {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 10px;
+}

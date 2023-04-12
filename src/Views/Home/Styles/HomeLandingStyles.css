@@ -1,0 +1,48 @@
+.heroImg {
+  height: 80vh;
+  background: url('https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg');
+  background-size: cover;
+  background-position: center 30%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landingCtaContainer {
+  width: 40%;
+  background-color: #f3f3f371;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.businessName {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #1e5d82;
+}
+.landingDescription {
+  flex-basis: 100%;
+  color: #3d3d3d;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.landingCta {
+  width: fit-content;
+  border-top: 3px solid #3d3d3d;
+  border-bottom: 3px solid #3d3d3d;
+  padding: 5px 10px;
+  margin: 15px auto;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #3d3d3d;
+  transition: all 0.4s;
+}
+.landingCta:hover {
+  letter-spacing: 5px;
+  color: #1e5d82;
+  border-top: 3px solid #1e5d82;
+  border-bottom: 3px solid #1e5d82;
+}
