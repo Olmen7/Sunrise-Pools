@@ -1,0 +1,9 @@
+.locationContainer {
+  padding: 5vh 0;
+}
+.cityNamesWrapper {
+  width: 40%;
+  margin: 15px auto;
+  font-size: 1.3rem;
+  text-align: center;
+}

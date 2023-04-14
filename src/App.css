@@ -5,12 +5,17 @@
 }
 body,
 html {
-  height: 300vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('https://images.pexels.com/photos/5563472/pexels-photo-5563472.jpeg');
   background-size: cover;
   background-position: center 85%;
   background-attachment: fixed;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
 .waterDrop {
   width: 30px;
@@ -31,4 +36,22 @@ html {
 .ctaWrapper {
   display: flex;
   justify-content: center;
+}
+.textLight {
+  color: white;
+}
+.text-poolBlue {
+  color: #1e5d82;
+}
+.bg-poolBlue {
+  background-color: #1e5d82;
+}
+.m-5 {
+  margin: 5vh 0;
+}
+.p-5 {
+  padding: 5vh 0;
+}
+.bg-dark {
+  background-color: #1a1a1a;
 }

@@ -1,7 +1,7 @@
 .aboutContainer {
   display: flex;
   align-items: center;
-  margin: 10vh;
+  margin: 15vh 0;
 }
 .leftSide {
   width: 50%;
@@ -43,8 +43,8 @@
   letter-spacing: 3px;
 }
 .beforeAfter {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   object-position: bottom;
   border-radius: 10px;

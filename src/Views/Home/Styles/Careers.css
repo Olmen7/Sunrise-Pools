@@ -1,0 +1,17 @@
+.careerLink {
+  font-size: 2rem;
+  color: #f3f3f3;
+  background: linear-gradient(to right, #1e5d82 50%, black 50%);
+  background-size: 201% 100%;
+  background-position: right bottom;
+  transition: 0.4s all;
+  margin: 20px;
+  border-radius: 10px;
+  color: #1e5d82;
+  padding: 0 15px;
+  font-weight: bolder;
+}
+.careerLink:hover {
+  background-position: left bottom;
+  color: black;
+}
